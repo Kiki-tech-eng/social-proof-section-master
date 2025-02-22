@@ -52,7 +52,7 @@ body {
     margin-bottom: 30px;
 }
 
-h1 {
+h2 {
     font-size: 2rem;
     color: #502050;
     font-weight: 700;
@@ -132,6 +132,13 @@ p {
 }
 
 @media (max-width: 768px) {
+    body{
+        height: 100vh;
+    }
+    .container{
+        margin-top: 100px;
+    }
+
     .stars {
         align-items: center;
     }
